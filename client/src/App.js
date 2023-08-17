@@ -1,11 +1,15 @@
-
-import './App.css';
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
+import Searchpage from './components/Searchpage';
 
 function App() {
   return (
-    <div className="App">
-       <h3>Enigma AI</h3>
-    </div>
+    <>
+      <Navbar/>
+      <Homepage/>
+      {/* <Searchpage/> */}
+
+    </>
   );
 }
 
